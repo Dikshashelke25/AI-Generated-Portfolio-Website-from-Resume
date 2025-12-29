@@ -4,6 +4,7 @@ An AI-powered Streamlit application that converts your resume (PDF) into a fully
 
 Upload your resume → Download a complete portfolio website (HTML, CSS, JS) 🚀
 
+
 📌 Project Overview
 
 Project Name : Resume to Portfolio Website Generator
@@ -20,6 +21,7 @@ AI Model : Google Gemini (gemini-2.5-flash-lite)
 Frontend : HTML, CSS, JavaScript
 
 Deployment :	Local / Browser-ready
+
 
 ✨ Key Highlights
 
@@ -39,6 +41,7 @@ Deployment :	Local / Browser-ready
 
 ⚡ No frontend frameworks — pure HTML, CSS, JS
 
+
 🛠️ Tech Stack
 
 Category	Technologies
@@ -55,31 +58,48 @@ PDF Processing	PyPDF
 
 Environment Variables	python-dotenv
 
+
 ⚙️ Application Workflow
+
 Step	Process
+
 1	Setup Google API using .env
+
 2	Upload Resume (PDF)
+
 3	Extract text from PDF
+
 4	Send text to Gemini model
+
 5	Apply system prompt (UI/UX + frontend rules)
+
 6	Generate HTML, CSS, JS
+
 7	Split files correctly
+
 8	Zip all files
+
 9	Download & open index.html
 
+
 🧠 How It Works (Architecture)
-Environment Setup
+
+1. Environment Setup :
 
 Uses python-dotenv to securely load the Google API key from .env
-Resume Upload
+
+2. Resume Upload :
 
 User uploads a PDF resume via Streamlit UI
-Text Extraction
+
+3. Text Extraction :
 
 Resume text is extracted using PyPDF
-AI Processing
+
+4. AI Processing
 
 Resume text is sent to ChatGoogleGenerativeAI
+
 Model analyzes and extracts:
 Name
 Role
@@ -102,36 +122,53 @@ script.js
 ZIP Packaging
 
 All files are compressed into a single downloadable ZIP
-Instant Deployment
+
+Instant Deployment :
 
 Open index.html in any browser to view your portfolio 🎉
 
+
 📦 Requirements
-Library	Purpose
-streamlit	Web UI
-pypdf	PDF text extraction
-langchain	LLM orchestration
-langchain_google_genai	Gemini integration
-python-dotenv	Secure API key storage
-zipfile	File compression
+
+streamlit	: Web UI
+
+pypdf	: PDF text extraction
+
+langchain	: LLM orchestration
+
+langchain_google_genai :	Gemini integration
+
+python-dotenv	: Secure API key storage
+
+zipfile	: File compression
+
 
 🚀 Getting Started
 
 1️⃣ Clone the Repository
+
 git clone  https://github.com/shubham132004/Resume-To-Portfolio-AI.git
+
 cd portfolio
+
 cd Scripts
+
 activate
+
 streamlit run main.py
 
 2️⃣ Create Virtual Environment (Optional but Recommended)
+
 python -m venv venv
+
 source venv/bin/activate   
 
 3️⃣ Install Dependencies
+
 pip install -r req.txt
 
 4️⃣ Setup Environment Variables
+
 Create a .env file in the root directory:
 
 gemini=YOUR_GOOGLE_API_KEY
@@ -139,8 +176,12 @@ gemini=YOUR_GOOGLE_API_KEY
 🔐 API keys are kept secure using dotenv.
 
 5️⃣ Run the Application
+
 streamlit run main.py
+
+
 📥 Usage
+
 Open the Streamlit app in your browser
 
 Upload your resume PDF
@@ -151,7 +192,9 @@ Download the ZIP file
 
 Open index.html → Your portfolio is live 🎉
 
+
 🌟 Use Cases
+
 Students building first portfolios
 
 Professionals upgrading resumes
@@ -162,7 +205,9 @@ Rapid personal website generation
 
 AI + Prompt Engineering demos
 
+
 🔮 Future Enhancements
+
 Multiple design themes
 
 Live preview before download
