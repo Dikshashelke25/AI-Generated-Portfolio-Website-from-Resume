@@ -5,33 +5,54 @@ An AI-powered Streamlit application that converts your resume (PDF) into a fully
 Upload your resume → Download a complete portfolio website (HTML, CSS, JS) 🚀
 
 📌 Project Overview
-Feature	Description
-Project Name	Resume to Portfolio Website Generator
-Description	Converts a resume PDF into a modern portfolio website using AI
-Input	Resume (PDF)
-Output	HTML, CSS, JavaScript (ZIP file)
-UI Framework	Streamlit
-AI Model	Google Gemini (gemini-2.5-flash-lite)
-Frontend Tech	Pure HTML, CSS, JavaScript
-Deployment	Local / Browser-ready
+
+Project Name : Resume to Portfolio Website Generator
+
+Description	: Converts a resume PDF into a modern portfolio website using AI
+
+Input :	Resume (PDF)
+ 
+Output :	HTML, CSS, JavaScript (ZIP file)
+
+UI Framework : Streamlit
+AI Model : Google Gemini (gemini-2.5-flash-lite)
+
+Frontend : HTML, CSS, JavaScript
+
+Deployment :	Local / Browser-ready
 
 ✨ Key Highlights
+
 📄 Upload PDF Resume
+
 🧠 AI-powered resume analysis using Google Gemini
+
 🎨 Generates a modern, gradient-based portfolio website
+
 💎 Card-based UI with smooth hover animations
+
 📱 Fully responsive design
+
 🧾 Clean separation of HTML, CSS & JavaScript
+
 📦 One-click ZIP download
+
 ⚡ No frontend frameworks — pure HTML, CSS, JS
 
 🛠️ Tech Stack
+
 Category	Technologies
+
 Frontend Generator	HTML, CSS, JavaScript
+
 Backend / UI	Streamlit
+
 AI / LLM	LangChain + Google Gemini
+
 Model Used	gemini-2.5-flash-lite
+
 PDF Processing	PyPDF
+
 Environment Variables	python-dotenv
 
 ⚙️ Application Workflow
