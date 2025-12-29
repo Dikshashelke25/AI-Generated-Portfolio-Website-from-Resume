@@ -95,17 +95,21 @@ python-dotenv	Secure API key storage
 zipfile	File compression
 
 🚀 Getting Started
+
 1️⃣ Clone the Repository
 git clone  https://github.com/shubham132004/Resume-To-Portfolio-AI.git
 cd portfolio
 cd Scripts
 activate
 streamlit run main.py
+
 2️⃣ Create Virtual Environment (Optional but Recommended)
 python -m venv venv
 source venv/bin/activate   
+
 3️⃣ Install Dependencies
 pip install -r req.txt
+
 4️⃣ Setup Environment Variables
 Create a .env file in the root directory:
 
